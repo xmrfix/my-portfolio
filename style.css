@@ -10,23 +10,101 @@ body {
     background: #ffffff;
     color: #20232a;
     min-height: 100vh;
-
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.container {
+    width: 100%;
+    max-width: 420px;
+    padding: 30px 20px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 h1 {
-    font-size: 42px;
+    font-size: 36px;
     font-weight: 700;
     letter-spacing: -1.5px;
-    color: #20232a;
     margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     color: #087ea4;
+}
+
+.profile p {
+    color: #888;
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.contact h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 18px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #20232a;
+    transition: all 0.2s ease;
+}
+
+.card:hover {
+    border-color: #087ea4;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card > svg:first-child {
+    width: 22px;
+    height: 22px;
+    color: #087ea4;
+}
+
+.card div {
+    flex: 1;
+}
+
+.card span {
+    display: block;
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card .arrow {
+    width: 17px;
+    height: 17px;
+    color: #aaa;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+    color: #aaa;
 }
