@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,9 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Djamel Eddine | FullStack Developer</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
-    <h1>Djamel Eddine</h1>
-    <h2>Full Stack Developer</h2>
+
+    <main class="container">
+
+        <div class="profile">
+            <h1>Djamel Eddine</h1>
+            <h2>Full Stack Developer</h2>
+            <p>Building modern web experiences.</p>
+        </div>
+
+        <section class="projects">
+            <h3>Projects</h3>
+
+            <div class="projects-deck">
+                <a href="https://iyadrebhi.com/" target="_blank" rel="noopener noreferrer" data-text="Editor Portfolio" style="--r:-16;" class="glass">
+                    <img src="assets/editor-portfolio.jpg" alt="Editor Portfolio preview">
+                </a>
+
+                <a href="https://mazentih.shop/" target="_blank" rel="noopener noreferrer" data-text="MAZENTIH Theme" style="--r:-8;" class="glass">
+                    <img src="assets/mazentih-shop.jpg" alt="MAZENTIH Brand Shopify Theme preview">
+                </a>
+
+                <a href="https://mazentih.shop/" target="_blank" rel="noopener noreferrer" data-text="MAZENTIH New" style="--r:0;" class="glass">
+                    <img src="assets/mazentih-shop-new.jpg" alt="MAZENTIH Brand Shopify Theme New preview">
+                </a>
+
+                <div data-text="Stock Management" style="--r:8;" class="glass">
+                    <img src="assets/stock-management.png" alt="Stock Management preview">
+                </div>
+
+                <a href="https://f1-moving.com/" target="_blank" rel="noopener noreferrer" data-text="F1 Moving Company" style="--r:16;" class="glass">
+                    <img src="assets/f1-moving.jpg" alt="F1 Moving Company preview">
+                </a>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h3>Contact Me</h3>
+
+            <a href="mailto:djamel.dev@outlook.com" class="card">
+                <img src="assets/outlook.svg" alt="Outlook" class="contact-icon">
+                <div>
+                    <span>Email</span>
+                    <p>djamel.dev@outlook.com</p>
+                </div>
+                <i data-lucide="arrow-up-right" class="arrow"></i>
+            </a>
+
+            <a href="https://instagram.com/dj4mel.dev" target="_blank" rel="noopener noreferrer" class="card">
+                <img src="assets/instagram.svg" alt="Instagram" class="contact-icon">
+                <div>
+                    <span>Instagram</span>
+                    <p>@dj4mel.dev</p>
+                </div>
+                <i data-lucide="arrow-up-right" class="arrow"></i>
+            </a>
+
+            <a href="https://wa.me/213542928482" target="_blank" rel="noopener noreferrer" class="card">
+                <img src="assets/whatsapp.svg" alt="WhatsApp" class="contact-icon">
+                <div>
+                    <span>WhatsApp</span>
+                    <p>+213 542 928 482</p>
+                </div>
+                <i data-lucide="arrow-up-right" class="arrow"></i>
+            </a>
+
+        </section>
+
+        <footer>
+            © 2026 Djamel Eddine. All rights reserved.
+        </footer>
+
+    </main>
+
+    <script>
+        lucide.createIcons();
+    </script>
+
 </body>
 </html>
